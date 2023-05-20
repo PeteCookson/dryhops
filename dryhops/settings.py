@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-n!-3)hh3j_pnwx@f%8yqgxmfhcs8!p+cbdbqrm%7f&n%)=4a5#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://8000-petecookson-dryhops-qjtj00xalb6.ws-eu97.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['8000-petecookson-dryhops-qjtj00xalb6.ws-eu97.gitpod.io', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://8000-petecookson-dryhops-qjtj00xalb6.ws-eu97.gitpod.io']
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'dryhops.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIRS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
