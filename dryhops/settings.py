@@ -30,8 +30,8 @@ SECRET_KEY = 'django-insecure-n!-3)hh3j_pnwx@f%8yqgxmfhcs8!p+cbdbqrm%7f&n%)=4a5#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-petecookson-dryhops-qjtj00xalb6.ws-eu97.gitpod.io', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://8000-petecookson-dryhops-qjtj00xalb6.ws-eu97.gitpod.io']
+ALLOWED_HOSTS = ['8000-petecookson-dryhops-j2mnajqnfy5.ws-eu100.gitpod.io', 'localhost']
+CSRF_TRUSTED_ORIGINS = ['https://8000-petecookson-dryhops-j2mnajqnfy5.ws-eu100.gitpod.io']
 
 # Application definition
 
